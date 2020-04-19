@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 
+apt-get install -y git-lfs
+
 INPUT_BRANCH=${INPUT_BRANCH:-master}
 INPUT_FORCE=${INPUT_FORCE:-false}
 INPUT_TAGS=${INPUT_TAGS:-false}
